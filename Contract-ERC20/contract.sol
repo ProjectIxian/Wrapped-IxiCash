@@ -4,7 +4,8 @@ pragma solidity >=0.6.0 <0.8.6;
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol";
 
-contract Wtst is ERC20, Ownable  {
+contract WIXI is ERC20, Ownable  {
+
     constructor() ERC20("Wrapped IxiCash", "WIXI") {
     }
 
